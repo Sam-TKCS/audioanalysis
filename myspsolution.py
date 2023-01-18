@@ -37,7 +37,8 @@ def mysppaus(m,p):
         z2=z1.strip().split()
         z3=int(z2[1]) # will be the integer number 10
         z4=float(z2[3]) # will be the floating point number 8.3
-        print ("number_of_pauses=",z3)
+        #print ("number_of_pauses=",z3)
+        return(z3)
     except:
         z3=0
         print ("Try again the sound of the audio was not clear")
@@ -54,7 +55,8 @@ def myspsr(m,p):
         z2=z1.strip().split()
         z3=int(z2[2]) # will be the integer number 10
         z4=float(z2[3]) # will be the floating point number 8.3
-        print ("rate_of_speech=",z3,"# syllables/sec original duration")
+        #print ("rate_of_speech=",z3,"# syllables/sec original duration")
+        return(z3)
     except:
         z3=0
         print ("Try again the sound of the audio was not clear")
@@ -122,7 +124,8 @@ def myspbala(m,p):
         z2=z1.strip().split()
         z3=int(z2[3]) # will be the integer number 10
         z4=float(z2[6]) # will be the floating point number 8.3
-        print ("balance=",z4,"# ratio (speaking duration)/(original duration)")
+        #print ("balance=",z4,"# ratio (speaking duration)/(original duration)")
+        return(z4)
     except:
         z4=0
         print ("Try again the sound of the audio was not clear")
